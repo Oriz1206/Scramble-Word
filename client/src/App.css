@@ -1,0 +1,25 @@
+:root{
+    --Green_1:  #86B86B;
+    --Grey_1: #979797;
+    --Yellow_1: #FFBC2C;
+    --Text_White_1: #ECECEC;
+    --Text_Black_1: #403F3F;
+    --Border_Black_1: #4D4D4D;
+
+    --Primary_Dark: #000814;
+    --Secondary_Dark: #14213D;
+    --Secondary_White: #E5E5E5;
+    --Primary_Yellow: #FCA311;
+    --Primary_White: #FFFFFF;
+    --Primary_Red: #CD1818;
+    --Primary_Green: #54B435;
+
+}
+.App{
+    background: var(--Primary_Dark);
+    height: fit-content;
+    width: 100%;
+}
+::selection{
+    background-color: var(--Primary_Yellow);
+}
